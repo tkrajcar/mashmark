@@ -2,7 +2,7 @@ source "http://rubygems.org"
 
 gem "sinatra", "~> 1.4.5"
 gem "haml"
-gem 'punkt-segmenter'
+gem "marky_markov"
 
 group :development do
   gem "shotgun"
