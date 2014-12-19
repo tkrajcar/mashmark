@@ -1,0 +1,16 @@
+%h1 Mashmark
+
+%form{method: "get", action: "mash"}
+  %label Source 1:
+  %select{name: "source1"}
+    -sources.each do |k,v|
+      %option{value: k}=v
+  %br
+  %label Source 2:
+  %select{name: "source2"}
+    -sources.each do |k,v|
+      %option{value: k}=v
+  %br
+  %input{type: "submit"}
+
+
